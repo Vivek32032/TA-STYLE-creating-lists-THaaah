@@ -57,6 +57,9 @@ a {
     display: flex;
     justify-content: space-between;
 }
+.flex-start {
+    justify-content: flex-start;
+}
 .center {
     justify-content: center;
     align-items: center;
@@ -66,14 +69,16 @@ a {
 }
 .ol {
     list-style: decimal;
+    padding-inline-start: 40px;
 }
 .ul {
     list-style: disc;
+    padding-inline-start: 40px;
 }
-ul, ol {
+/* ul, ol {
     padding-inline-start: 40px;
 
-}
+} */
 main {
     background-color: rgb(212,206,167);
 }
@@ -142,6 +147,6 @@ nav ul a {
      background-color: rgb(37,44,34);
  }
  footer nav{
-     padding: 1.8%;
+     padding: 1.8% 0;
  }
  
