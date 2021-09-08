@@ -64,10 +64,10 @@ a {
 .container {
     padding: 2% 15%;
 }
-ol {
+.ol {
     list-style: decimal;
 }
-ul {
+.ul {
     list-style: disc;
 }
 ul, ol {
@@ -86,7 +86,7 @@ header {
     padding: 9px 0;
 
 }
-nav a {
+nav ul a {
     color: rgb(248, 232, 221);
     font-size: 23px;
     margin-right: 45px;
@@ -103,14 +103,15 @@ nav a {
 
 
  }
- .image-list li {
-     list-style-image: url("../media/img/check-circle-solid.svg");
+ .image-list {
+     list-style-image: url("../media/check-circle-solid.svg");
+     line-height: 2.1;
 
  }
- .image-list li::marker {
+ /* .image-list li::marker {
      font-size: 40px;
      margin-top: 0;
- } 
+ }  */
 
 .square-list {
     list-style: square;
